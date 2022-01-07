@@ -46,7 +46,7 @@ export default function RecipeScreen(props) {
     let ingredient = item;
     navigation.navigate("Ingredient", { ingredient, name });
   };
-
+  console.log('item',item)
   return (
     <ScrollView style={styles.container}>
       <View style={styles.carouselContainer}>

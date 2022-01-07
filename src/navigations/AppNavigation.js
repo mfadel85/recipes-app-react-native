@@ -10,6 +10,7 @@ import DrawerContainer from '../screens/DrawerContainer/DrawerContainer';
 import IngredientScreen from '../screens/Ingredient/IngredientScreen';
 import SearchScreen from '../screens/Search/SearchScreen';
 import IngredientsDetailsScreen from '../screens/IngredientsDetails/IngredientsDetailsScreen';
+import { LogBox } from 'react-native';
 
  const Stack = createStackNavigator();
 
@@ -65,5 +66,5 @@ function DrawerStack() {
   )
 } 
  
-
-console.disableYellowBox = true;
+//LogBox.ignoreLogs(['Warning: ...'])
+//console.disableYellowBox = true;
